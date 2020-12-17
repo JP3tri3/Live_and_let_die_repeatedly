@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744b2414735494abb87e48b04a00d9df, type: 3}
+  m_Name: 1A1. Wake Up 1
+  m_EditorClassIdentifier: 
+  storyText: "The phone starts flashing red:\x03\n\n\"This message will self destruct
+    in 5... 4... 3...\"\n\nYou set the phone down.\n\n\"2... 1....\"\n\nThe entire
+    iPhone starts sparking and fries itself internally.  It's a good thing the agency
+    purchased AppleCare.\x03\x03\n\n1.) Continue"
+  nextState:
+  - {fileID: 11400000, guid: 9135c8fb2812d4afd8cf4a4a76aefe42, type: 2}

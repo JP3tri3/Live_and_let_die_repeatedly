@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744b2414735494abb87e48b04a00d9df, type: 3}
+  m_Name: 1B. Scan the Door for Clue
+  m_EditorClassIdentifier: 
+  storyText: 'You decide to scan the door for clues, M raises his wrist to the door.
+    The Omega watch glinting in the morning sun, there hasn''t been a chance to use
+    the upgrades that Q implemented as a "Christmas Present".  He likes to call it
+    a gift but there''s always some reason for these $200,000 upgrades.  The watch
+    face starts pulsing with scanning lasers across the door frame and surrounding
+    area which highlights two sets of footprints.  One set is clearly from an animal,
+    possibly a 100 pound pitbull.  The other set looks almost like a small set of
+    wheels.
+
+
+    What to do?
+
+    1.) Investigate the animal footprints
+
+    2.)
+    Investigate the wheel prints'
+  nextState:
+  - {fileID: 11400000, guid: 0a5cddc2ed781402d9396ca2ac4a8e89, type: 2}
+  - {fileID: 11400000, guid: 130f6842dd3cf4d39acf47aa0c0716ed, type: 2}

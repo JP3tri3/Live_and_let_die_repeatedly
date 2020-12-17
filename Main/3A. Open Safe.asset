@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744b2414735494abb87e48b04a00d9df, type: 3}
+  m_Name: 3A. Open Safe
+  m_EditorClassIdentifier: 
+  storyText: 'You remove the tactical pen from your pocket, pull out the note from
+    upstairs and write down the words together.
+
+
+    Dr. No Year
+
+
+    1.) Try to
+    figure out Ammo box combination'
+  nextState:
+  - {fileID: 11400000, guid: 5fcf30b71dadc487eaa4438ed6d1dcaa, type: 2}

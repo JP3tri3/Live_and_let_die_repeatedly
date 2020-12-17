@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744b2414735494abb87e48b04a00d9df, type: 3}
+  m_Name: 1F6. Failed Guesses
+  m_EditorClassIdentifier: 
+  storyText: "The display reads:\n\nGood try, bad guesses.  \n\nThe floor opens up
+    below you, while falling you notice a great white shark becoming larger and larger
+    until \"Splash!\" you hit the water.  You're dead before the shark even gets
+    close..\n\n1.) Continue (you're dead, start over)"
+  nextState:
+  - {fileID: 11400000, guid: faa74732ace1f4f72a791e7b028cc2d8, type: 2}

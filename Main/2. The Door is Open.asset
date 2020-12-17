@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744b2414735494abb87e48b04a00d9df, type: 3}
+  m_Name: 2. The Door is Open
+  m_EditorClassIdentifier: 
+  storyText: "You enter the room to find a note on a table.  You read the note:\n\n\"Dr.\"\n\nWhile
+    reading the note a trap door triggers open!  You fall through the door through
+    the downstairs to the basement and land on a white couch.  \n\nWhat would you
+    like to do?\n\n1.) Investigate this room\n2.) Head upstairs for a cup of coffee\n"
+  nextState:
+  - {fileID: 11400000, guid: 5fcf30b71dadc487eaa4438ed6d1dcaa, type: 2}
+  - {fileID: 11400000, guid: 094a0c2e5a9bd47e6bd4fbec9a580d8d, type: 2}

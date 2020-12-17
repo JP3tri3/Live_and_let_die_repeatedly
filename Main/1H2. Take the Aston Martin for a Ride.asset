@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744b2414735494abb87e48b04a00d9df, type: 3}
+  m_Name: 1H2. Take the Aston Martin for a Ride
+  m_EditorClassIdentifier: 
+  storyText: "Wow.  Can't believe you fell for that one.  \n\nYou hop into the car,
+    the doors open cleanly and the seats feel so nice, looking at the retro dashboard
+    equipped with voice recognition you say \"activate\".  The Aston Martin starts
+    to roar to life when it all goes sideways, you forgot to switch the vehicle to
+    \"Sunday driver\" from the previous state \"Flight Crash Test Mode\" and fly
+    into a tree.\n\n1.) Continue (You're dead, start over)"
+  nextState:
+  - {fileID: 11400000, guid: faa74732ace1f4f72a791e7b028cc2d8, type: 2}

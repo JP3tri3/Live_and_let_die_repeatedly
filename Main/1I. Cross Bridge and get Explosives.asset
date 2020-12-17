@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744b2414735494abb87e48b04a00d9df, type: 3}
+  m_Name: 1I. Cross Bridge and get Explosives
+  m_EditorClassIdentifier: 
+  storyText: "You cross the bridge, open the crate labeled ANFO, take out one package
+    of explosives, and head back to the house.  Strapping a small amount of explosives
+    to the vault door hinges in the upper room proves successful.  \"BOOOM\" the
+    hinges fall off and the door falls down in front of you. \n\n1.) Continue"
+  nextState:
+  - {fileID: 11400000, guid: c9a05e4146c684c0cb3e509f30b39ed9, type: 2}

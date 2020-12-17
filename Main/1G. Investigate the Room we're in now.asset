@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744b2414735494abb87e48b04a00d9df, type: 3}
+  m_Name: 1G. Investigate the Room we're in now
+  m_EditorClassIdentifier: 
+  storyText: 'Turning to the right you notice a computer sitting on the desk with
+    Safari open.  Navigating to History in the tab shows the most recent search history,
+    one labeled "ATmega168 DX12 LCD Vault Door Security System".  Reading through
+    this you determine that a recent software patch bug fix excludes the code #927
+    from being used.  Hm, this might be helpful.
+
+
+    1.) Attempt to guess the code
+
+    2.)
+    Use Force on the door'
+  nextState:
+  - {fileID: 11400000, guid: c601c43e70e944242891922f5e540a15, type: 2}
+  - {fileID: 11400000, guid: 17c65ca1f7b5f49e28335d16f6b1310f, type: 2}

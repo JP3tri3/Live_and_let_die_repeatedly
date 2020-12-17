@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744b2414735494abb87e48b04a00d9df, type: 3}
+  m_Name: 1A. Wake Up
+  m_EditorClassIdentifier: 
+  storyText: "You wake up in bed on Christmas morning to a notification on your iPhone. 
+    Picking up the phone, the facial recognition software scans your face with 30,000
+    points of infrared light instantly unlocking the screen.  You think to yourself,
+    \"this can't be secure\", oh well.  You click on the one message there:\x03\x03\n\n\"Agents
+    M & L, we've detected a breach in your mountain fortress.\nThis is concerning. 
+    Investigate immediately.\n~ Q\"\n\n1.) Continue"
+  nextState:
+  - {fileID: 11400000, guid: 116e1827878a54b0c8db670c1e23b180, type: 2}

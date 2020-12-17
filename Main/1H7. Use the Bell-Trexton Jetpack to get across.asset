@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744b2414735494abb87e48b04a00d9df, type: 3}
+  m_Name: 1H7. Use the Bell-Trexton Jetpack to get across
+  m_EditorClassIdentifier: 
+  storyText: 'You pickup the Bell-Trexton Jetpack, feeling almost as rusty on how
+    to fly this thing as it looks.  After putting it on you look at the buttons on
+    the left should panel, pressing "Engage Thrusters".  Fire spits out behind you
+    as the engines roar to life... you take off and smash into the ceiling at 120kph.
+
+
+    This
+    wasn''t meant to be flown inside.
+
+
+    1.) Start Over'
+  nextState:
+  - {fileID: 11400000, guid: faa74732ace1f4f72a791e7b028cc2d8, type: 2}

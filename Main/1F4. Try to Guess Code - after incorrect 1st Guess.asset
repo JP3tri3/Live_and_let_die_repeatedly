@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744b2414735494abb87e48b04a00d9df, type: 3}
+  m_Name: 1F4. Try to Guess Code - after incorrect 1st Guess
+  m_EditorClassIdentifier: 
+  storyText: 'Guess the Code:
+
+
+    1.) 2, 7, 9 - Incorrect
+
+    2.) 2, 9, 7 - Incorrect
+
+    3.)
+    7, 2, 9 - Correct
+
+    4.) 7, 9, 2 - Incorrect
+
+    5.) 9, 2, 7 - Incorrect
+
+    6.)
+    9, 7, 2 - Incorrect'
+  nextState:
+  - {fileID: 11400000, guid: 7a7758a15a8dd42199e1f90a66f2b9ca, type: 2}
+  - {fileID: 11400000, guid: 7a7758a15a8dd42199e1f90a66f2b9ca, type: 2}
+  - {fileID: 11400000, guid: d995b6d0ebbc54450b811f88910f52f8, type: 2}
+  - {fileID: 11400000, guid: 7a7758a15a8dd42199e1f90a66f2b9ca, type: 2}
+  - {fileID: 11400000, guid: 7a7758a15a8dd42199e1f90a66f2b9ca, type: 2}
+  - {fileID: 11400000, guid: 7a7758a15a8dd42199e1f90a66f2b9ca, type: 2}
